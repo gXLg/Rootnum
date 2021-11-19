@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
   name = "rootnum",
-  version = "0.1.1",
+  version = "0.1.2",
   description = "Module for accurate square root operations",
   long_description = README,
   long_description_content_type = "text/markdown",

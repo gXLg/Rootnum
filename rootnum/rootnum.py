@@ -498,9 +498,3 @@ class Rootnum:
       while self >= x:
         self = self - x
     return self_sign * x_sign * self
-
-if __name__ == "__main__":
-  fi = Rootnum([(1, 1), (1, 5)], 2)
-  print(fi)
-  print(fi + fi * fi)
-  print(fi / (fi + 2) * 5)
