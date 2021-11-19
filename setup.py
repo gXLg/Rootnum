@@ -8,7 +8,7 @@ setup(
   author = "dev_null",
   author_email = "natgaev@gmail.com",
   url = "https://github.com/gXLg/rootnum",
-  download_url = "https://github.com/user/reponame/archive/v_01.tar.gz",
+  download_url = "https://github.com/gXLg/rootnum/archive/refs/tags/v0.1-beta1.tar.gz",
   keywords = ["math", "square root", "accuracy", "precision"],
   install_requires = [],
   classifiers = [
