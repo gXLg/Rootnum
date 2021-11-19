@@ -1,21 +1,25 @@
-from distutils.core import setup
+import pathlib
+from setuptools import setup
+
+HERE = pathlib.Path(__file__).parent
+
+README = (HERE / "README.md").read_text()
+
 setup(
   name = "rootnum",
-  packages = ["rootnum"],
-  version = "0.1",
-  license = "MIT",
+  version = "0.1.1",
   description = "Module for accurate square root operations",
+  long_description = README,
+  long_description_content_type = "text/markdown",
+  url = "https://github.com/gXLg/rootnum",
   author = "dev_null",
   author_email = "natgaev@gmail.com",
-  url = "https://github.com/gXLg/rootnum",
-  download_url = "https://github.com/gXLg/rootnum/archive/refs/tags/v0.1-beta1.tar.gz",
-  keywords = ["math", "square root", "accuracy", "precision"],
-  install_requires = [],
+  license = "MIT",
   classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "Topic :: Software Development :: Build Tools",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3"
   ],
+  packages = ["rootnum"],
+  include_package_data = True,
+  install_requires = [],
 )
