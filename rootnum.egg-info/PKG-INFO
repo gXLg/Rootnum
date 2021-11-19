@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: rootnum
-Version: 0.1.1
+Version: 0.1.2
 Summary: Module for accurate square root operations
 Home-page: https://github.com/gXLg/rootnum
 Author: dev_null
@@ -14,5 +14,43 @@ License-File: LICENSE.txt
 
 # rootnum
 A python module for accurate square root operations
+
+# Usage
+
+## installation
+```
+pip install rootnum
+```
+
+## import
+
+```py
+from rootnum import Rootnum
+```
+
+## creating s square root
+
+```py
+num = Rootnum([(1, 1), (1, 5)], 2)
+print(num)
+```
+outputs
+```
+(1 + √5) / 2
+```
+
+## math
+
+```py
+a = num + (1, 2)
+b = 1 / num
+print(a)
+print(b)
+```
+outputs
+```
+(1 + 2√2 + √5) / 2
+(-1 + √5) / 2
+```
 
 
