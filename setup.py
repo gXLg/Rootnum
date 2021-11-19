@@ -20,6 +20,5 @@ setup(
     "Programming Language :: Python :: 3"
   ],
   packages = ["rootnum"],
-  include_package_data = True,
   install_requires = [],
 )
