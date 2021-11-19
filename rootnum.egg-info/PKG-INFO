@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rootnum
+Version: 0.1.1
+Summary: Module for accurate square root operations
+Home-page: https://github.com/gXLg/rootnum
+Author: dev_null
+Author-email: natgaev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# rootnum
+A python module for accurate square root operations
+
+
