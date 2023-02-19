@@ -4,9 +4,10 @@ A python module for accurate square root operations
 # Usage
 
 ## installation
-```
-pip install rootnum
-```
+~`pip install rootnum`~
+
+Python Package removed because
+it is going to be reworked.
 
 ## import
 
